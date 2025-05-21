@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Tests.PIPTests">
+        <methods>
+          <include name="deletePIPEntryTest"/>
+          <include name="addPIPTest"/>
+          <include name="teardown"/>
+          <include name="verifyValidationOnSaveTest"/>
+          <include name="setup"/>
+          <include name="navigateToPIPTest"/>
+          <include name="filterByReviewerTest"/>
+          <include name="searchEmployeeTest"/>
+          <include name="verifyPIPHeaderTest"/>
+          <include name="editPIPEntryTest"/>
+          <include name="filterByStatusTest"/>
+        </methods>
+      </class> <!-- Tests.PIPTests -->
+      <class name="Tests.TimePanel">
+        <methods>
+          <include name="pageDownTimesheets"/>
+          <include name="doubleClickFirstTimesheetRow"/>
+          <include name="tabThroughFilters"/>
+          <include name="rightClickTimesheets"/>
+          <include name="ctrlFBrowserFind"/>
+          <include name="dragAndDropCalendarEvent"/>
+          <include name="ctrlACommentBox"/>
+          <include name="hoverAndClickAttendance"/>
+          <include name="clickAndHoldTimesheetRow"/>
+          <include name="teardown"/>
+          <include name="enterSubmitTime"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Tests.TimePanel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
